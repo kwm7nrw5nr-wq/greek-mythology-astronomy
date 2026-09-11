@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    background: #050816;
+    color: white;
+    line-height: 1.8;
+}
+
+/* 導覽列 */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 18px 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    background: rgba(5, 8, 22, 0.9);
+    backdrop-filter: blur(10px);
+
+    z-index: 1000;
+}
+
+nav h2 {
+    margin-right: auto;
+    font-size: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+
+/* 主視覺 */
+
+main section:first-child {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 100px 30px;
+
+    background:
+        radial-gradient(circle at 50% 40%,
+        #263b73 0%,
+        #101936 35%,
+        #050816 70%,
+        #02030a 100%);
+}
+
+main section:first-child p:first-child {
+    letter-spacing: 4px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+main section:first-child h1 {
+    font-size: 72px;
+    margin: 20px 0;
+}
+
+main section:first-child p {
+    max-width: 700px;
+    font-size: 20px;
+    opacity: 0.85;
+}
+
+main section:first-child a {
+    margin-top: 35px;
+
+    padding: 12px 30px;
+
+    border: 1px solid white;
+    border-radius: 30px;
+
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+main section:first-child a:hover {
+    background: white;
+    color: #050816;
+}
+
+
+/* 介紹 */
+
+main section:nth-child(2) {
+    max-width: 900px;
+    margin: auto;
+    padding: 120px 30px;
+
+    text-align: center;
+}
+
+main section:nth-child(2) h2,
+main section:nth-child(3) h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+main section:nth-child(2) p {
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+
+/* 三個主題 */
+
+main section:nth-child(3) {
+    padding: 100px 30px;
+
+    text-align: center;
+
+    background: #080c20;
+}
+
+main section:nth-child(3) article {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 28%;
+    min-width: 250px;
+
+    margin: 15px;
+    padding: 35px 25px;
+
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.03);
+
+    transition: 0.3s;
+}
+
+main section:nth-child(3) article:hover {
+    transform: translateY(-8px);
+}
+
+main section:nth-child(3) h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+/* 頁尾 */
+
+footer {
+    padding: 50px 20px;
+
+    text-align: center;
+
+    background: #02030a;
+
+    opacity: 0.7;
+}
+
+footer p {
+    margin: 5px;
+}
