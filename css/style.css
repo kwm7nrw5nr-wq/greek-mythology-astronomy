@@ -211,8 +211,9 @@ footer p {
 
     /* 首頁主視覺 */
     main section:first-child {
-        min-height: 90vh;
-        padding: 35px 20px 50px;
+    min-height: auto;
+    padding: 40px 20px 80px;
+    justify-content: flex-start;
     }
 
     main section:first-child p:first-child {
