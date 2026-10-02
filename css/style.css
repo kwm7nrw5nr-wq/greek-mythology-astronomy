@@ -775,46 +775,27 @@ footer p {
    神話世代 Hero 背景
 ========================= */
 
+/* 原初神｜宇宙誕生 */
 .hero-primordial {
     background:
         radial-gradient(
             circle at 50% 35%,
-            #263b73 0%,
-            #101936 35%,
-            #050816 70%,
+            rgba(70, 100, 180, 0.45) 0%,
+            rgba(30, 45, 95, 0.65) 30%,
+            rgba(8, 12, 32, 0.95) 65%,
             #02030a 100%
         );
 }
 
+
+/* 第一代泰坦｜古老神力 */
 .hero-titans {
     background:
         radial-gradient(
-            circle at 50% 35%,
-            #5b4b91 0%,
-            #292b5c 25%,
-            #111632 55%,
-            #050816 100%
-        );
-}
-
-.hero-descendants {
-    background:
-        radial-gradient(
-            circle at 50% 35%,
-            #714b62 0%,
-            #3d2948 30%,
-            #17152e 60%,
-            #050816 100%
-        );
-}
-
-.hero-olympians {
-    background:
-        radial-gradient(
             circle at 50% 30%,
-            #8c7b63 0%,
-            #4b4550 30%,
-            #202238 60%,
+            rgba(125, 90, 180, 0.5) 0%,
+            rgba(65, 55, 110, 0.7) 28%,
+            rgba(20, 20, 50, 0.95) 60%,
             #050816 100%
         );
 }
