@@ -126,8 +126,13 @@ main section:nth-child(3) h2 {
 }
 
 main section:nth-child(2) p {
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     opacity: 0.8;
+    line-height: 2;
+}
+
+main section:nth-child(2) p:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -186,6 +191,11 @@ footer p {
 }
 /* 手機版 */
 @media (max-width: 768px) {
+
+    main section:nth-child(2) p {
+        margin-bottom: 28px;
+        line-height: 2;
+    }
 
     /* 導覽列 */
     nav {
