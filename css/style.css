@@ -540,8 +540,8 @@ footer p {
 ========================= */
 
 .hero {
+    position: relative;
     min-height: 100vh;
-
     padding: 140px 30px 100px;
 
     display: flex;
@@ -549,14 +549,64 @@ footer p {
     justify-content: center;
 
     text-align: center;
+    overflow: hidden;
 
     background:
         radial-gradient(
-            circle at 50% 0%,
-            #17244f 0%,
-            #080c20 45%,
+            circle at 50% 35%,
+            #5b4b91 0%,
+            #292b5c 25%,
+            #111632 55%,
             #050816 100%
         );
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
+        radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px);
+
+    background-size:
+        90px 90px,
+        150px 150px;
+
+    background-position:
+        20px 30px,
+        70px 100px;
+
+    opacity: 0.35;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+
+    width: 700px;
+    height: 700px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(150, 130, 220, 0.25) 0%,
+            rgba(100, 90, 180, 0.1) 35%,
+            transparent 70%
+        );
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
 }
 
 .hero-content {
