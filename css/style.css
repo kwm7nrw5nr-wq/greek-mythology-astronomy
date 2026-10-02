@@ -270,3 +270,220 @@ footer p {
         margin: 0 auto 15px;
     }
 }
+
+/* =========================
+   原初神圖鑑
+========================= */
+
+.primordial-section {
+    padding: 120px 40px;
+
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            #17244f 0%,
+            #080c20 45%,
+            #050816 100%
+        );
+
+    text-align: center;
+}
+
+
+/* 小標題 */
+
+.section-label {
+    font-size: 12px;
+    letter-spacing: 4px;
+    opacity: 0.55;
+
+    margin-bottom: 10px;
+}
+
+
+/* 圖鑑標題 */
+
+.primordial-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+/* 圖鑑介紹 */
+
+.section-intro {
+    max-width: 720px;
+
+    margin: 0 auto 60px;
+
+    opacity: 0.75;
+}
+
+
+/* =========================
+   神祇卡片網格
+========================= */
+
+.primordial-grid {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+
+/* =========================
+   神祇卡片
+========================= */
+
+.god-card {
+    overflow: hidden;
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+    border-radius: 24px;
+
+    background: rgba(255,255,255,0.035);
+
+    text-align: left;
+
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        background 0.35s ease;
+}
+
+
+/* 滑鼠移上去 */
+
+.god-card:hover {
+    transform: translateY(-10px);
+
+    border-color:
+        rgba(255,255,255,0.3);
+
+    background:
+        rgba(255,255,255,0.07);
+}
+
+
+/* =========================
+   神祇圖片
+========================= */
+
+.god-card .primordial-image {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    max-width: none;
+
+    margin: 0;
+
+    border-radius: 0;
+}
+
+
+/* =========================
+   神祇資料
+========================= */
+
+.god-info {
+    padding: 25px;
+}
+
+
+.god-number {
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    opacity: 0.45;
+
+    margin-bottom: 8px;
+}
+
+
+.god-info h3 {
+    font-size: 25px;
+
+    margin-bottom: 6px;
+}
+
+
+.god-title {
+    font-size: 14px;
+
+    opacity: 0.65;
+
+    margin-bottom: 15px;
+}
+
+
+.god-info > p:last-child {
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    opacity: 0.72;
+}
+
+
+/* =========================
+   手機版圖鑑
+========================= */
+
+@media (max-width: 768px) {
+
+    .primordial-section {
+        padding: 80px 18px;
+    }
+
+
+    .primordial-section h2 {
+        font-size: 34px;
+    }
+
+
+    .section-intro {
+        font-size: 15px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .primordial-grid {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+
+    .god-card {
+        border-radius: 20px;
+    }
+
+
+    .god-info {
+        padding: 22px;
+    }
+
+
+    .god-info h3 {
+        font-size: 23px;
+    }
+
+
+    .god-info > p:last-child {
+        font-size: 15px;
+    }
+
+}
