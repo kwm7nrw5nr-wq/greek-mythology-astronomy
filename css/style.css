@@ -125,42 +125,24 @@ main section:nth-child(3) h2 {
     margin-bottom: 30px;
 }
 
+/* 介紹文字 */
+
 main section:nth-child(2) p {
+    display: block;
+
+    width: 100%;
     max-width: 700px;
-    margin-bottom: 28px;
-    padding: 18px 24px;
+
+    margin: 0 auto 36px;
+    padding: 0;
+
     line-height: 2;
     text-align: left;
-    background: rgba(255, 255, 255, 0.025);
-    border-left: 2px solid rgba(255, 255, 255, 0.25);
 }
 
-/* 第一段靠左 */
-main section:nth-child(2) p:nth-of-type(1) {
-    margin-left: 0;
-    margin-right: auto;
+main section:nth-child(2) p:last-child {
+    margin-bottom: 0;
 }
-
-/* 第二段靠右 */
-main section:nth-child(2) p:nth-of-type(2) {
-    margin-left: auto;
-    margin-right: 0;
-}
-
-/* 第三段稍微靠左 */
-main section:nth-child(2) p:nth-of-type(3) {
-    max-width: 650px;
-    margin-left: 8%;
-    margin-right: auto;
-}
-
-/* 第四段稍微靠右 */
-main section:nth-child(2) p:nth-of-type(4) {
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: 8%;
-}
-
 
 /* 三個主題 */
 
@@ -218,33 +200,19 @@ footer p {
 /* 手機版 */
 @media (max-width: 768px) {
     main section:nth-child(2) p {
-        max-width: 92%;
-        padding: 16px 18px;
-        margin-bottom: 22px;
-        line-height: 1.9;
-    }
+    width: 100%;
+    max-width: 100%;
 
-    main section:nth-child(2) p:nth-of-type(1) {
-        margin-left: 0;
-        margin-right: auto;
-    }
+    margin: 0 auto 32px;
+    padding: 0;
 
-    main section:nth-child(2) p:nth-of-type(2) {
-        margin-left: auto;
-        margin-right: 0;
-    }
+    line-height: 1.9;
+    text-align: left;
+}
 
-    main section:nth-child(2) p:nth-of-type(3) {
-        max-width: 88%;
-        margin-left: 4%;
-        margin-right: auto;
-    }
-
-    main section:nth-child(2) p:nth-of-type(4) {
-        max-width: 88%;
-        margin-left: auto;
-        margin-right: 4%;
-    }
+main section:nth-child(2) p:last-child {
+    margin-bottom: 0;
+}
 
     /* 導覽列 */
     nav {
