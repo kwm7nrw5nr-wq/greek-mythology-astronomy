@@ -950,7 +950,7 @@ main section:nth-child(2) p:last-child {
     padding: 0;
 
     line-height: 2;
-    text-align: left;
+    text-align: center;
 }
 
 .intro-section p:last-child {
