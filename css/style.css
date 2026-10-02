@@ -487,3 +487,51 @@ footer p {
     }
 
 }
+
+/* =========================
+   原初神圖鑑｜手機版修正
+========================= */
+
+@media (max-width: 768px) {
+
+    .primordial-section {
+        width: 100%;
+        padding: 70px 15px;
+    }
+
+    .primordial-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .god-card {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+
+        overflow: hidden;
+    }
+
+    .god-card .primordial-image {
+        display: block;
+
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+
+        object-fit: contain;
+    }
+
+    .god-info {
+        width: 100%;
+        padding: 22px;
+    }
+
+}
