@@ -293,45 +293,32 @@ footer p {
     text-align: center;
 }
 
-
-/* 小標題 */
-
 .primordial-section .section-label {
     font-size: 12px;
     letter-spacing: 4px;
     opacity: 0.55;
-
     margin-bottom: 10px;
 }
-
-
-/* 圖鑑標題 */
 
 .primordial-section h2 {
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-
-/* 圖鑑介紹 */
-
 .primordial-section .section-intro {
     max-width: 720px;
-
     margin: 0 auto 60px;
-
     opacity: 0.75;
 }
 
 
 /* =========================
-   神祇圖鑑網格
+   神祇卡片網格
 ========================= */
 
 .primordial-grid {
     width: 100%;
     max-width: 1200px;
-
     margin: 0 auto;
 
     display: grid;
@@ -357,7 +344,6 @@ footer p {
     overflow: hidden;
 
     border: 1px solid rgba(255,255,255,0.12);
-
     border-radius: 24px;
 
     background: rgba(255,255,255,0.035);
@@ -369,9 +355,6 @@ footer p {
         border-color 0.35s ease,
         background 0.35s ease;
 }
-
-
-/* 滑鼠移上 */
 
 .primordial-grid .god-card:hover {
     transform: translateY(-10px);
@@ -392,9 +375,9 @@ footer p {
     display: block;
 
     width: 100%;
-    height: auto;
-
     max-width: none;
+
+    height: auto;
 
     margin: 0;
     padding: 0;
@@ -406,17 +389,16 @@ footer p {
 
 
 /* =========================
-   神祇資訊
+   神祇資料
 ========================= */
 
 .primordial-grid .god-info {
+    width: 100%;
     padding: 25px;
 }
 
-
 .primordial-grid .god-number {
     font-size: 11px;
-
     letter-spacing: 2px;
 
     opacity: 0.45;
@@ -424,13 +406,10 @@ footer p {
     margin-bottom: 8px;
 }
 
-
 .primordial-grid .god-info h3 {
     font-size: 25px;
-
     margin-bottom: 6px;
 }
-
 
 .primordial-grid .god-title {
     font-size: 14px;
@@ -440,10 +419,8 @@ footer p {
     margin-bottom: 15px;
 }
 
-
 .primordial-grid .god-info > p:last-child {
     font-size: 14px;
-
     line-height: 1.8;
 
     opacity: 0.72;
@@ -458,28 +435,20 @@ footer p {
 
     .primordial-section {
         width: 100%;
-
         padding: 70px 15px;
     }
 
-
     .primordial-section h2 {
         font-size: 34px;
-
         line-height: 1.4;
     }
 
-
     .primordial-section .section-intro {
         font-size: 15px;
-
         line-height: 1.8;
 
         margin-bottom: 40px;
     }
-
-
-    /* 一欄 */
 
     .primordial-grid {
         width: 100%;
@@ -490,23 +459,15 @@ footer p {
         gap: 25px;
     }
 
-
-    /* 卡片 */
-
     .primordial-grid .god-card {
         width: 100%;
-
         min-width: 0;
 
         margin: 0;
-
         padding: 0;
 
         border-radius: 20px;
     }
-
-
-    /* 圖片 */
 
     .primordial-grid .primordial-image {
         display: block;
@@ -522,24 +483,17 @@ footer p {
         object-fit: contain;
     }
 
-
-    /* 資訊 */
-
     .primordial-grid .god-info {
         width: 100%;
-
         padding: 22px;
     }
-
 
     .primordial-grid .god-info h3 {
         font-size: 23px;
     }
 
-
     .primordial-grid .god-info > p:last-child {
         font-size: 15px;
-
         line-height: 1.8;
     }
 
