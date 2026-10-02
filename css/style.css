@@ -137,7 +137,7 @@ main section:nth-child(2) p {
     padding: 0;
 
     line-height: 2;
-    text-align: left;
+    text-align: center;
 }
 
 main section:nth-child(2) p:last-child {
@@ -991,7 +991,7 @@ main section:nth-child(2) p:last-child {
         padding: 0;
 
         line-height: 1.9;
-        text-align: left;
+        text-align: center;
     }
 
     .intro-section p:last-child {
