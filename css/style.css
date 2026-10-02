@@ -459,18 +459,18 @@ footer p {
     }
 
     .primordial-grid .primordial-image {
-        display: block;
+    display: block;
 
-        width: 100%;
-        max-width: 100%;
+    width: 100%;
+    max-width: 100%;
 
-        height: auto;
+    height: 420px;
 
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 
-        object-fit: contain;
-    }
+    object-fit: contain;
+}
 
     .primordial-grid .god-info {
         width: 100%;
