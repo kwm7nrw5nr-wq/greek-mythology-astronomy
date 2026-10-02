@@ -126,14 +126,17 @@ main section:nth-child(3) h2 {
 }
 
 main section:nth-child(2) p {
-    max-width: 720px;
+    max-width: 700px;
     margin: 0 auto 28px;
-    opacity: 0.8;
-    line-height: 2;
-}
+    padding: 18px 24px;
 
-main section:nth-child(2) p:last-child {
-    margin-bottom: 0;
+    text-align: left;
+
+    line-height: 2;
+
+    border-left: 2px solid rgba(255,255,255,0.25);
+
+    background: rgba(255,255,255,0.025);
 }
 
 
@@ -195,8 +198,11 @@ footer p {
 
     main section:nth-child(2) p {
         max-width: 100%;
-        margin-bottom: 30px;
-        line-height: 2;
+        margin-bottom: 22px;
+        padding: 16px 18px;
+
+        text-align: left;
+        line-height: 1.9;
     }
 
     /* 導覽列 */
