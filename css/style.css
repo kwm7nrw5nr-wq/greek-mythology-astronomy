@@ -775,27 +775,63 @@ footer p {
    神話世代 Hero 背景
 ========================= */
 
-/* 原初神｜宇宙誕生 */
+/* =========================
+   原初神｜混沌宇宙
+========================= */
+
 .hero-primordial {
     background:
         radial-gradient(
-            circle at 50% 35%,
-            rgba(70, 100, 180, 0.45) 0%,
-            rgba(30, 45, 95, 0.65) 30%,
-            rgba(8, 12, 32, 0.95) 65%,
+            ellipse at 50% 45%,
+            rgba(100, 120, 220, 0.35) 0%,
+            rgba(40, 55, 120, 0.25) 25%,
+            transparent 55%
+        ),
+        radial-gradient(
+            ellipse at 20% 80%,
+            rgba(70, 40, 130, 0.3) 0%,
+            transparent 45%
+        ),
+        radial-gradient(
+            ellipse at 80% 20%,
+            rgba(30, 100, 150, 0.25) 0%,
+            transparent 45%
+        ),
+        linear-gradient(
+            180deg,
+            #111936 0%,
+            #080c20 55%,
             #02030a 100%
         );
 }
 
 
-/* 第一代泰坦｜古老神力 */
+/* =========================
+   第一代泰坦｜古老神力
+========================= */
+
 .hero-titans {
     background:
         radial-gradient(
-            circle at 50% 30%,
-            rgba(125, 90, 180, 0.5) 0%,
-            rgba(65, 55, 110, 0.7) 28%,
-            rgba(20, 20, 50, 0.95) 60%,
+            ellipse at 50% 35%,
+            rgba(150, 110, 210, 0.45) 0%,
+            rgba(80, 60, 140, 0.3) 25%,
+            transparent 55%
+        ),
+        radial-gradient(
+            ellipse at 15% 70%,
+            rgba(130, 70, 120, 0.3) 0%,
+            transparent 45%
+        ),
+        radial-gradient(
+            ellipse at 85% 65%,
+            rgba(70, 80, 160, 0.3) 0%,
+            transparent 45%
+        ),
+        linear-gradient(
+            180deg,
+            #292050 0%,
+            #111632 55%,
             #050816 100%
         );
 }
