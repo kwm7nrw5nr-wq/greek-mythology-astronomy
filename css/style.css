@@ -913,3 +913,89 @@ main section:nth-child(2) p:last-child {
             #050816 100%
         );
 }
+
+/* =========================
+   原初神介紹區
+========================= */
+
+.intro-section {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+    padding: 120px 30px;
+
+    text-align: center;
+}
+
+.intro-section h2 {
+    width: 100%;
+
+    font-size: 38px;
+    line-height: 1.4;
+
+    margin-bottom: 50px;
+
+    white-space: normal;
+    overflow: visible;
+}
+
+.intro-section p {
+    display: block;
+
+    width: 100%;
+    max-width: 760px;
+
+    margin: 0 auto 38px;
+    padding: 0;
+
+    line-height: 2;
+    text-align: left;
+}
+
+.intro-section p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   原初神介紹區｜手機版
+========================= */
+
+@media (max-width: 768px) {
+
+    .intro-section {
+        width: 100%;
+        max-width: 100%;
+
+        padding: 80px 20px;
+    }
+
+    .intro-section h2 {
+        width: 100%;
+
+        font-size: 30px;
+        line-height: 1.5;
+
+        margin-bottom: 45px;
+
+        white-space: normal;
+        overflow: visible;
+    }
+
+    .intro-section p {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 0 38px;
+        padding: 0;
+
+        line-height: 1.9;
+        text-align: left;
+    }
+
+    .intro-section p:last-child {
+        margin-bottom: 0;
+    }
+
+}
