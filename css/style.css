@@ -999,3 +999,30 @@ main section:nth-child(2) p:last-child {
     }
 
 }
+
+
+/* =========================
+   專有名詞傳送膠囊
+========================= */
+
+.god-card[id] { scroll-margin-top: 110px; }
+.term-gates { padding: 0 25px 25px; margin-top: -2px; }
+.term-gates-label { margin: 0 0 10px; color: rgba(255,255,255,.55); font-size: 12px; letter-spacing: 1px; }
+.term-gates-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.term-pill {
+ display: inline-flex; align-items: center; gap: 7px; max-width: 100%;
+ padding: 7px 13px; border: 1px solid rgba(178,190,255,.22); border-radius: 999px;
+ background: rgba(119,135,210,.10); color: rgba(255,255,255,.88);
+ font-size: 12px; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere;
+ transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+.term-pill span { color: rgba(193,203,255,.75); font-size: 11px; }
+.term-pill:hover { background: rgba(119,135,210,.24); border-color: rgba(193,203,255,.55); transform: translateY(-1px); }
+.term-pill:focus-visible { outline: 2px solid #c1cbff; outline-offset: 3px; }
+.term-gates-empty { margin: 0; color: rgba(255,255,255,.42); font-size: 12px; }
+@media (max-width: 768px) {
+ .term-gates { padding: 0 18px 20px; }
+ .term-gates-list { gap: 7px; }
+ .term-pill { padding: 7px 11px; font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { .term-pill { transition: none; } }
