@@ -1154,7 +1154,8 @@ body::after {
 /* 寬螢幕上增加流星的斜向落差，避免寬高比讓軌跡看起來太平 */
 @media (min-width: 900px) {
     body::after {
-        transform: rotate(-42deg);
+        /* 流星本體長軸與移動路徑保持一致，約向下 20° */
+        transform: rotate(-20deg);
         width: clamp(150px, 14vw, 220px);
     }
 
