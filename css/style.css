@@ -1026,3 +1026,66 @@ main section:nth-child(2) p:last-child {
  .term-pill { padding: 7px 11px; font-size: 12px; }
 }
 @media (prefers-reduced-motion: reduce) { .term-pill { transition: none; } }
+
+
+/* =========================
+   延伸研究頁面共用元件
+========================= */
+.navbar { flex-wrap: wrap; gap: 14px 24px; }
+.nav-logo { flex-shrink: 0; }
+.nav-logo a { color: white; text-decoration: none; }
+.nav-links { flex-wrap: wrap; gap: 8px 18px; }
+.nav-links a { white-space: nowrap; }
+.content-main { padding-top: 1px; }
+.content-section { width: min(1120px, calc(100% - 48px)); margin: 0 auto; padding: 54px 0; }
+.content-section h2 { font-size: clamp(25px, 3vw, 36px); line-height: 1.45; margin: 0 0 24px; }
+.content-section > p:not(.section-label):not(.section-intro):not(.source-note) { max-width: 850px; line-height: 2; color: rgba(255,255,255,.82); margin: 0 auto 20px; }
+.content-section .section-label { color: #aab8ff; letter-spacing: 3px; font-size: 12px; margin-bottom: 10px; }
+.content-section .section-intro { color: rgba(255,255,255,.72); margin: -8px 0 25px; }
+.info-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; margin-top: 26px; }
+.info-card { padding: 26px; border: 1px solid rgba(177,192,255,.16); border-radius: 20px; background: linear-gradient(145deg,rgba(30,42,81,.72),rgba(8,13,34,.82)); }
+.info-card h3 { font-size: 21px; margin: 8px 0 12px; }
+.info-card p { color: rgba(255,255,255,.77); line-height: 1.9; margin-bottom: 14px; }
+.card-kicker { color: #aab8ff; font-size: 11px; letter-spacing: 1.5px; }
+.text-link, .source-list a { color: #c7d2ff; text-decoration: none; border-bottom: 1px solid rgba(199,210,255,.28); }
+.text-link:hover, .source-list a:hover { color: white; border-color: white; }
+.fact-list { display: grid; gap: 12px; margin-top: 24px; }
+.fact-list > div { padding: 20px 22px; border-left: 3px solid #8f9fe9; border-radius: 0 14px 14px 0; background: rgba(111,129,203,.09); }
+.fact-list strong { font-size: 17px; }
+.fact-list p { margin-top: 6px; color: rgba(255,255,255,.75); }
+.story-panel { padding: clamp(22px,4vw,38px); border: 1px solid rgba(177,192,255,.18); border-radius: 24px; background: radial-gradient(circle at top right,rgba(91,111,193,.2),transparent 55%),rgba(12,18,43,.7); }
+.story-panel p { line-height: 2; color: rgba(255,255,255,.84); margin-bottom: 16px; }
+.story-panel p:last-child { margin-bottom: 0; }
+.source-note { font-size: 13px; color: rgba(255,255,255,.57); line-height: 1.8; margin-top: 18px; }
+.source-note a { color: #c7d2ff; text-decoration: none; }
+.zodiac-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; margin-top: 24px; }
+.zodiac-grid > div { padding: 18px; border-radius: 16px; background: rgba(120,137,205,.09); border: 1px solid rgba(177,192,255,.13); }
+.zodiac-grid strong { color: #e1e6ff; }
+.zodiac-grid p { color: rgba(255,255,255,.72); font-size: 14px; line-height: 1.8; margin-top: 7px; }
+.planet-list { display: grid; gap: 14px; }
+.planet-card { display: grid; grid-template-columns: 56px 1fr; gap: 18px; align-items: start; padding: 23px; border: 1px solid rgba(177,192,255,.15); border-radius: 18px; background: rgba(19,27,58,.65); }
+.planet-index { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; color: #dce3ff; background: rgba(119,135,210,.2); font-weight: 700; }
+.planet-card h3 { font-size: 21px; margin: 0 0 9px; }
+.planet-card p { color: rgba(255,255,255,.77); line-height: 1.85; margin: 0 0 8px; }
+.timeline { display: grid; gap: 0; margin-top: 24px; }
+.timeline-item { display: grid; grid-template-columns: 160px 1fr; gap: 22px; padding: 22px 0; border-bottom: 1px solid rgba(177,192,255,.13); }
+.timeline-item > span { color: #b8c5ff; font-weight: 700; }
+.timeline-item h3 { margin: 0 0 8px; font-size: 20px; }
+.timeline-item p { color: rgba(255,255,255,.75); line-height: 1.9; }
+.source-list { display: grid; gap: 14px; }
+.source-list article { padding: 22px 24px; border: 1px solid rgba(177,192,255,.14); border-radius: 16px; background: rgba(19,27,58,.55); }
+.source-list h3 { font-size: 18px; margin-bottom: 7px; }
+.source-list p { color: rgba(255,255,255,.75); line-height: 1.85; margin-bottom: 8px; }
+@media (max-width: 768px) {
+ .navbar { padding: 12px 16px; gap: 8px; align-items: flex-start; }
+ .nav-logo { font-size: 18px; width: 100%; }
+ .nav-links { gap: 5px 12px; }
+ .nav-links a { font-size: 12px; }
+ .content-section { width: calc(100% - 36px); padding: 38px 0; }
+ .info-grid { grid-template-columns: 1fr; }
+ .zodiac-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .timeline-item { grid-template-columns: 1fr; gap: 6px; }
+ .planet-card { grid-template-columns: 42px 1fr; gap: 12px; padding: 17px; }
+ .planet-index { width: 38px; height: 38px; font-size: 12px; }
+}
+@media (max-width: 420px) { .zodiac-grid { grid-template-columns: 1fr; } }
