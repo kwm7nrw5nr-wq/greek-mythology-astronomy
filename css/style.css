@@ -1151,18 +1151,26 @@ body::after {
     78% { left: -25%; top: 72%; opacity: 0; }
 }
 
-/* 寬螢幕上增加流星的斜向落差，避免寬高比讓軌跡看起來太平 */
+/* 寬螢幕：讓流星亮線與實際飛行向量一致 */
 @media (min-width: 900px) {
     body::after {
-        /* 流星本體長軸與移動路徑保持一致，約向下 20° */
         transform: rotate(-20deg);
+        transform-origin: right center;
         width: clamp(150px, 14vw, 220px);
     }
 
     @keyframes shooting-star {
-        0%, 68%, 100% { left: 110%; top: 8%; opacity: 0; }
+        0%, 68%, 100% {
+            left: 110%;
+            top: 8%;
+            opacity: 0;
+        }
         70% { opacity: .9; }
-        78% { left: -25%; top: 88%; opacity: 0; }
+        78% {
+            left: -25%;
+            top: calc(8% + 49vw);
+            opacity: 0;
+        }
     }
 }
 
