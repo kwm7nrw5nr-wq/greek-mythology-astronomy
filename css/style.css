@@ -1151,6 +1151,20 @@ body::after {
     78% { left: -25%; top: 72%; opacity: 0; }
 }
 
+/* 寬螢幕上增加流星的斜向落差，避免寬高比讓軌跡看起來太平 */
+@media (min-width: 900px) {
+    body::after {
+        transform: rotate(-42deg);
+        width: clamp(150px, 14vw, 220px);
+    }
+
+    @keyframes shooting-star {
+        0%, 68%, 100% { left: 110%; top: 8%; opacity: 0; }
+        70% { opacity: .9; }
+        78% { left: -25%; top: 88%; opacity: 0; }
+    }
+}
+
 /* 讓內容區保留夜空氛圍，不使用整片不透明底色 */
 .primordial-section,
 .section,
