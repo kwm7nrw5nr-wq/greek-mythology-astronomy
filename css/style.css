@@ -1275,8 +1275,10 @@ body { animation: page-arrive .75s ease both; }
 body.is-transitioning { overflow:hidden; }
 .page-transition { position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:0;background:radial-gradient(ellipse at 50% 50%,rgba(100,119,210,.24),transparent 48%),#050816;transition:opacity .32s ease; }
 .page-transition.is-active { opacity:1; }
-.reveal-on-scroll { opacity:1;transform:none;transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1); }
-@media (prefers-reduced-motion: no-preference) { .reveal-on-scroll:not(.is-visible) { opacity:.35;transform:translateY(12px); } }
+.reveal-on-scroll { opacity:1;transform:none;transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1); }
+@media (prefers-reduced-motion: no-preference) {
+ .reveal-on-scroll:not(.is-visible) { opacity:0;transform:translateY(24px); }
+}
 .reveal-on-scroll.is-visible { opacity:1;transform:translateY(0); }
 @keyframes intro-stars { from { transform:translate3d(0,0,0); } to { transform:translate3d(-75px,100px,0); } }
 @keyframes intro-glow { from { opacity:.55;scale:.92; } to { opacity:1;scale:1.06; } }
