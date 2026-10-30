@@ -27,15 +27,10 @@
   }
 
   function setupReveal() {
-    const targets = document.querySelectorAll(".content-section, .intro-section, .primordial-section, .section, .god-card, .info-card, .planet-card, .story-panel, .fact-list > div, .timeline-item, .source-list article, .zodiac-grid > div");
-    targets.forEach((el, index) => {
-      el.classList.add("reveal-on-scroll");
-      if (el.matches(".god-card, .info-card, .planet-card, .zodiac-grid > div")) el.style.transitionDelay = (index % 4) * 65 + "ms";
-    });
-    if (reduceMotion || !("IntersectionObserver" in window)) {
-      targets.forEach(el => el.classList.add("is-visible"));
-      return;
-    }
+    // Never hide entire sections: tall sections and nested cards could stay invisible
+    // when their IntersectionObserver thresholds are not reached.
+    const targets = document.querySelectorAll(".god-card, .info-card, .planet-card, .story-panel, .timeline-item, .source-list article, .zodiac-grid > div");
+    if (reduceMotion || !("IntersectionObserver" in window)) return;
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -43,8 +38,18 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12, rootMargin: "0px 0px -35px 0px" });
-    targets.forEach(el => observer.observe(el));
+    }, { threshold: 0.01, rootMargin: "0px 0px 80px 0px" });
+    targets.forEach((el, index) => {
+      el.classList.add("reveal-on-scroll");
+      if (el.matches(".god-card, .info-card, .planet-card, .zodiac-grid > div"))
+        el.style.transitionDelay = (index % 4) * 65 + "ms";
+      observer.observe(el);
+    });
+    // Fail open if observer callbacks are delayed or blocked.
+    window.setTimeout(() => {
+      targets.forEach(el => el.classList.add("is-visible"));
+      observer.disconnect();
+    }, 2500);
   }
 
   function setupTransitions() {
