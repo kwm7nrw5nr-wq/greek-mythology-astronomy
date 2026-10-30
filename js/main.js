@@ -45,11 +45,19 @@
         el.style.transitionDelay = (index % 4) * 65 + "ms";
       observer.observe(el);
     });
-    // Fail open if observer callbacks are delayed or blocked.
-    window.setTimeout(() => {
-      targets.forEach(el => el.classList.add("is-visible"));
-      observer.disconnect();
-    }, 2500);
+    // Safety fallback only for items that remain hidden unexpectedly.
+    // Avoid revealing everything at once before the user scrolls.
+    const revealVisible = () => {
+      targets.forEach(el => {
+        if (el.classList.contains("is-visible")) return;
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight + 120 && rect.bottom > -120)
+          el.classList.add("is-visible");
+      });
+    };
+    window.addEventListener("scroll", revealVisible, { passive: true });
+    window.addEventListener("resize", revealVisible, { passive: true });
+    window.setTimeout(revealVisible, 800);
   }
 
   function setupTransitions() {
