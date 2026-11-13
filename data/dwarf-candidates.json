@@ -1,0 +1,43 @@
+[
+  {
+    "id": "sedna",
+    "name": "賽德娜",
+    "englishName": "Sedna",
+    "designation": "90377 Sedna",
+    "category": "dwarf-candidate",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": null,
+      "orbitalPeriodDays": null,
+      "discoveryYear": 2003
+    },
+    "description": {
+      "science": "極遙遠的海王星外天體，近日點約 76 AU，公轉週期約一萬多年。它是矮行星候選天體，尚非 IAU 正式認定的五顆矮行星之一。",
+      "mythology": "名稱來自因紐特傳統中的海洋女神賽德娜（Sedna），並非希臘神話角色。"
+    },
+    "image": {
+      "src": "image/astronomy/sedna-concept.svg",
+      "alt": "賽德娜的原創科學概念示意圖，非實拍",
+      "credit": "本站原創科學概念示意圖（非實拍）",
+      "imageId": null,
+      "catalogUrl": null
+    },
+    "related": [
+      {
+        "label": "正式矮行星",
+        "url": "dwarf-planets.html"
+      },
+      {
+        "label": "彗星圖鑑",
+        "url": "comets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Sedna overview",
+        "url": "https://science.nasa.gov/solar-system/"
+      }
+    ]
+  }
+]

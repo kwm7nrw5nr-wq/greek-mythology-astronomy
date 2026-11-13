@@ -1,0 +1,218 @@
+[
+  {
+    "id": "halley",
+    "name": "哈雷彗星",
+    "englishName": "Halley",
+    "designation": "1P/Halley",
+    "category": "comet",
+    "physical": {
+      "parentBody": "sun"
+    },
+    "description": {
+      "science": "約每 76 年返回內太陽系的著名週期彗星，曾被多個太空探測器近距離觀測。",
+      "mythology": "以天文學家愛德蒙·哈雷命名；其回歸曾出現在歷史記錄與民間傳說。"
+    },
+    "image": {
+      "src": "image/astronomy/comet-halley-concept.svg",
+      "alt": "哈雷彗星的原創彗星概念示意圖，非實拍",
+      "credit": "本站原創彗星概念示意圖（非實拍；不代表該彗星實際形狀）"
+    },
+    "related": [
+      {
+        "label": "太陽",
+        "url": "stars.html"
+      },
+      {
+        "label": "行星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Comets",
+        "url": "https://science.nasa.gov/solar-system/comets/"
+      }
+    ]
+  },
+  {
+    "id": "hale-bopp",
+    "name": "海爾－波普彗星",
+    "englishName": "Hale–Bopp",
+    "designation": "C/1995 O1",
+    "category": "comet",
+    "physical": {
+      "parentBody": "sun"
+    },
+    "description": {
+      "science": "1997 年的著名明亮彗星，塵埃尾與離子尾在天空中格外醒目。",
+      "mythology": "以共同發現者艾倫·海爾與湯瑪斯·波普命名。"
+    },
+    "image": {
+      "src": "image/astronomy/comet-hale-bopp-concept.svg",
+      "alt": "海爾－波普彗星的原創彗星概念示意圖，非實拍",
+      "credit": "本站原創彗星概念示意圖（非實拍；不代表該彗星實際形狀）"
+    },
+    "related": [
+      {
+        "label": "太陽",
+        "url": "stars.html"
+      },
+      {
+        "label": "行星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Comets",
+        "url": "https://science.nasa.gov/solar-system/comets/"
+      }
+    ]
+  },
+  {
+    "id": "67p",
+    "name": "丘留莫夫－格拉西緬科彗星",
+    "englishName": "Churyumov–Gerasimenko",
+    "designation": "67P",
+    "category": "comet",
+    "physical": {
+      "parentBody": "sun"
+    },
+    "description": {
+      "science": "ESA 羅塞塔號近距離探測的雙葉形彗核，菲萊登陸器曾在其表面著陸。",
+      "mythology": "以發現者克里姆·丘留莫夫與斯韋特蘭娜·格拉西緬科命名。"
+    },
+    "image": {
+      "src": "image/astronomy/comet-67p-concept.svg",
+      "alt": "丘留莫夫－格拉西緬科彗星的原創彗星概念示意圖，非實拍",
+      "credit": "本站原創彗星概念示意圖（非實拍；不代表該彗星實際形狀）"
+    },
+    "related": [
+      {
+        "label": "太陽",
+        "url": "stars.html"
+      },
+      {
+        "label": "行星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Comets",
+        "url": "https://science.nasa.gov/solar-system/comets/"
+      }
+    ]
+  },
+  {
+    "id": "neowise",
+    "name": "NEOWISE 彗星",
+    "englishName": "NEOWISE",
+    "designation": "C/2020 F3",
+    "category": "comet",
+    "physical": {
+      "parentBody": "sun"
+    },
+    "description": {
+      "science": "2020 年曾在夜空中展現明亮彗髮與長彗尾。",
+      "mythology": "名稱來自發現它的 NEOWISE 太空望遠鏡計畫。"
+    },
+    "image": {
+      "src": "image/astronomy/comet-neowise-concept.svg",
+      "alt": "NEOWISE 彗星的原創彗星概念示意圖，非實拍",
+      "credit": "本站原創彗星概念示意圖（非實拍；不代表該彗星實際形狀）"
+    },
+    "related": [
+      {
+        "label": "太陽",
+        "url": "stars.html"
+      },
+      {
+        "label": "行星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Comets",
+        "url": "https://science.nasa.gov/solar-system/comets/"
+      }
+    ]
+  },
+  {
+    "id": "shoemaker-levy-9",
+    "name": "舒梅克－李維九號彗星",
+    "englishName": "Shoemaker–Levy 9",
+    "designation": "D/1993 F2",
+    "category": "comet",
+    "physical": {
+      "parentBody": "sun"
+    },
+    "description": {
+      "science": "1994 年彗星碎片撞擊木星，讓天文學家得以觀察行星大氣受到撞擊的過程。",
+      "mythology": "以發現者舒梅克夫婦與大衛·李維命名。"
+    },
+    "image": {
+      "src": "image/astronomy/comet-shoemaker-levy-9-concept.svg",
+      "alt": "舒梅克－李維九號彗星的原創彗星概念示意圖，非實拍",
+      "credit": "本站原創彗星概念示意圖（非實拍；不代表該彗星實際形狀）"
+    },
+    "related": [
+      {
+        "label": "太陽",
+        "url": "stars.html"
+      },
+      {
+        "label": "行星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Comets",
+        "url": "https://science.nasa.gov/solar-system/comets/"
+      }
+    ]
+  },
+  {
+    "id": "encke",
+    "name": "恩克彗星",
+    "englishName": "Encke",
+    "designation": "2P/Encke",
+    "category": "comet",
+    "physical": {
+      "parentBody": "sun"
+    },
+    "description": {
+      "science": "公轉週期約 3.3 年，是著名的短週期彗星。",
+      "mythology": "以推算其週期軌道的天文學家約翰·恩克命名。"
+    },
+    "image": {
+      "src": "image/astronomy/comet-encke-concept.svg",
+      "alt": "恩克彗星的原創彗星概念示意圖，非實拍",
+      "credit": "本站原創彗星概念示意圖（非實拍；不代表該彗星實際形狀）"
+    },
+    "related": [
+      {
+        "label": "太陽",
+        "url": "stars.html"
+      },
+      {
+        "label": "行星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Comets",
+        "url": "https://science.nasa.gov/solar-system/comets/"
+      }
+    ]
+  }
+]

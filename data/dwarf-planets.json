@@ -95,9 +95,9 @@
       "mythology": "名稱來自夏威夷神話的生育女神，不屬希臘神話。"
     },
     "image": {
-      "src": null,
-      "alt": "妊神星的官方觀測影像",
-      "credit": "目前無可確認的清晰實拍影像；不以假想圖冒充照片",
+      "src": "image/astronomy/haumea-concept.svg",
+      "alt": "妊神星的原創科學概念示意圖，非實際攝影",
+      "credit": "本站原創科學概念示意圖（非實拍；顏色與表面細節僅供理解）",
       "imageId": null,
       "catalogUrl": null
     },
@@ -135,9 +135,9 @@
       "mythology": "名稱來自拉帕努伊文化中的創造神，不屬希臘神話。"
     },
     "image": {
-      "src": null,
-      "alt": "鳥神星的官方觀測影像",
-      "credit": "目前無可確認的清晰實拍影像；不以假想圖冒充照片",
+      "src": "image/astronomy/makemake-concept.svg",
+      "alt": "鳥神星的原創科學概念示意圖，非實際攝影",
+      "credit": "本站原創科學概念示意圖（非實拍；顏色與表面細節僅供理解）",
       "imageId": null,
       "catalogUrl": null
     },
@@ -175,9 +175,9 @@
       "mythology": "名稱來自希臘不和女神厄里斯。"
     },
     "image": {
-      "src": null,
-      "alt": "鬩神星的官方觀測影像",
-      "credit": "目前無可確認的清晰實拍影像；不以假想圖冒充照片",
+      "src": "image/astronomy/eris-concept.svg",
+      "alt": "鬩神星的原創科學概念示意圖，非實際攝影",
+      "credit": "本站原創科學概念示意圖（非實拍；顏色與表面細節僅供理解）",
       "imageId": null,
       "catalogUrl": null
     },

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sun",
+    "name": "太陽",
+    "englishName": "Sun",
+    "designation": "Sol",
+    "category": "star",
+    "physical": {
+      "parentBody": null,
+      "diameterKm": 1392700,
+      "orbitalPeriodDays": null
+    },
+    "description": {
+      "science": "太陽是太陽系中心的 G2V 型主序恆星，透過核心的氫核融合釋放能量；地球上的光與熱主要來自太陽。",
+      "mythology": "希臘神話中的赫利俄斯（Helios）是太陽神；阿波羅後來也與太陽意象相連，但兩者原本並非同一位神祇。"
+    },
+    "image": {
+      "src": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_1024_HMIIC.jpg",
+      "fallbackSrc": "image/astronomy/sun-concept.svg",
+      "alt": "NASA 太陽動力學天文台的太陽完整日面觀測影像",
+      "credit": "NASA/SDO（動態日面影像；若載入失敗則顯示本站原創示意圖）",
+      "catalogUrl": "https://sdo.gsfc.nasa.gov/"
+    },
+    "related": [
+      {
+        "label": "行星圖鑑",
+        "url": "planets.html"
+      },
+      {
+        "label": "希臘神話",
+        "url": "mythology.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Sun Facts",
+        "url": "https://science.nasa.gov/sun/facts/"
+      }
+    ]
+  }
+]
