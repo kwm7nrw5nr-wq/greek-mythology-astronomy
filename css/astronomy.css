@@ -12,7 +12,7 @@
 .astro-card{display:block;min-width:0;width:100%;padding:0;border:1px solid rgba(190,204,255,.24);border-radius:18px;overflow:hidden;background:#10162c;color:#fff;text-align:left;cursor:pointer;transition:border-color .2s,transform .2s}
 .astro-card:hover{transform:translateY(-3px);border-color:#a9bbff}
 .astro-card[aria-expanded="true"]{border-color:#b3c4ff;box-shadow:0 0 0 1px #b3c4ff}
-.astro-card img{display:block;width:100%;height:190px;object-fit:cover;background:#080e22}
+.astro-card img{display:block;width:100%;height:190px;object-fit:contain;object-position:center;background:#080e22}
 .astro-card-info{display:grid;gap:4px;padding:15px}
 .astro-card-name{font-weight:700;font-size:20px}.astro-card-sub{color:#bbc8e9;font-size:13px}.astro-card-summary{font-size:14px;color:#e1e5f5;line-height:1.6}
 .astro-detail{grid-column:1/-1;border:1px solid rgba(178,198,255,.32);border-radius:18px;padding:24px;background:linear-gradient(145deg,#121d3b,#0b1024);scroll-margin-top:100px}
