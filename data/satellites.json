@@ -1,0 +1,285 @@
+[
+  {
+    "id": "rhea",
+    "name": "瑞亞",
+    "englishName": "Rhea",
+    "designation": "Saturn V",
+    "aliases": [
+      "Saturn V",
+      "土衛V"
+    ],
+    "category": "satellite",
+    "image": {
+      "src": "image/astronomy/rhea.svg",
+      "alt": "瑞亞的示意插畫（非實際攝影）",
+      "credit": "本站製作的示意插畫，非 NASA 實拍影像",
+      "sourceUrl": null,
+      "licenseNote": "本站自製示意圖；非科學比例"
+    },
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 1527,
+      "orbitalPeriodDays": 4.518,
+      "discoveryYear": 1672,
+      "discoverer": "喬瓦尼·多梅尼科·卡西尼"
+    },
+    "description": {
+      "science": "土星第二大衛星，表面遍布撞擊坑與明亮冰質地形。",
+      "mythology": "名稱來自泰坦女神瑞亞，克洛諾斯的伴侶與宙斯的母親。"
+    },
+    "related": [
+      {
+        "type": "mythology",
+        "label": "瑞亞女神",
+        "url": "titans.html#rhea"
+      },
+      {
+        "type": "astronomy",
+        "label": "土星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA Science: Rhea",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/saturn/moons/rhea/"
+      }
+    ]
+  },
+  {
+    "id": "iapetus",
+    "name": "伊阿佩托斯",
+    "englishName": "Iapetus",
+    "designation": "Saturn VIII",
+    "aliases": [
+      "Saturn VIII",
+      "土衛VIII"
+    ],
+    "category": "satellite",
+    "image": {
+      "src": "image/astronomy/iapetus.svg",
+      "alt": "伊阿佩托斯的示意插畫（非實際攝影）",
+      "credit": "本站製作的示意插畫，非 NASA 實拍影像",
+      "sourceUrl": null,
+      "licenseNote": "本站自製示意圖；非科學比例"
+    },
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 1469,
+      "orbitalPeriodDays": 79.3215,
+      "discoveryYear": 1671,
+      "discoverer": "喬瓦尼·多梅尼科·卡西尼"
+    },
+    "description": {
+      "science": "表面明暗差異極大，赤道附近還有醒目的山脊。",
+      "mythology": "名稱來自泰坦神伊阿佩托斯，阿特拉斯與普羅米修斯之父。"
+    },
+    "related": [
+      {
+        "type": "mythology",
+        "label": "伊阿佩托斯神",
+        "url": "titans.html#iapetus"
+      },
+      {
+        "type": "astronomy",
+        "label": "土星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA Science: Iapetus",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/saturn/moons/iapetus/"
+      }
+    ]
+  },
+  {
+    "id": "hyperion",
+    "name": "許珀里翁",
+    "englishName": "Hyperion",
+    "designation": "Saturn VII",
+    "aliases": [
+      "Saturn VII",
+      "土衛VII"
+    ],
+    "category": "satellite",
+    "image": {
+      "src": "image/astronomy/hyperion.svg",
+      "alt": "許珀里翁的示意插畫（非實際攝影）",
+      "credit": "本站製作的示意插畫，非 NASA 實拍影像",
+      "sourceUrl": null,
+      "licenseNote": "本站自製示意圖；非科學比例"
+    },
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 270,
+      "orbitalPeriodDays": 21.2766,
+      "discoveryYear": 1848,
+      "discoverer": "威廉·邦德、喬治·邦德與威廉·拉塞爾"
+    },
+    "description": {
+      "science": "外形不規則，表面多孔洞狀撞擊坑，呈現海綿般的外觀。",
+      "mythology": "名稱來自泰坦神許珀里翁，赫利俄斯、塞勒涅與厄俄斯之父。"
+    },
+    "related": [
+      {
+        "type": "mythology",
+        "label": "許珀里翁神",
+        "url": "titans.html#hyperion"
+      },
+      {
+        "type": "astronomy",
+        "label": "土星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA Science: Hyperion",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/saturn/moons/hyperion/"
+      }
+    ]
+  },
+  {
+    "id": "tethys",
+    "name": "忒堤斯",
+    "englishName": "Tethys",
+    "designation": "Saturn III",
+    "aliases": [
+      "Saturn III",
+      "土衛III"
+    ],
+    "category": "satellite",
+    "image": {
+      "src": "image/astronomy/tethys.svg",
+      "alt": "忒堤斯的示意插畫（非實際攝影）",
+      "credit": "本站製作的示意插畫，非 NASA 實拍影像",
+      "sourceUrl": null,
+      "licenseNote": "本站自製示意圖；非科學比例"
+    },
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 1062,
+      "orbitalPeriodDays": 1.888,
+      "discoveryYear": 1684,
+      "discoverer": "喬瓦尼·多梅尼科·卡西尼"
+    },
+    "description": {
+      "science": "以水冰為主，具有巨大的奧德修斯撞擊坑與伊薩卡峽谷。",
+      "mythology": "名稱來自泰坦女神忒堤斯，與俄刻阿諾斯共同孕育眾多水域神祇。"
+    },
+    "related": [
+      {
+        "type": "mythology",
+        "label": "忒堤斯女神",
+        "url": "titans.html#tethys"
+      },
+      {
+        "type": "astronomy",
+        "label": "土星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA Science: Tethys",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/saturn/moons/tethys/"
+      }
+    ]
+  },
+  {
+    "id": "phoebe",
+    "name": "福柏",
+    "englishName": "Phoebe",
+    "designation": "Saturn IX",
+    "aliases": [
+      "Saturn IX",
+      "土衛IX"
+    ],
+    "category": "satellite",
+    "image": {
+      "src": "image/astronomy/phoebe.svg",
+      "alt": "福柏的示意插畫（非實際攝影）",
+      "credit": "本站製作的示意插畫，非 NASA 實拍影像",
+      "sourceUrl": null,
+      "licenseNote": "本站自製示意圖；非科學比例"
+    },
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 213,
+      "orbitalPeriodDays": 550.48,
+      "discoveryYear": 1899,
+      "discoverer": "威廉·亨利·皮克林"
+    },
+    "description": {
+      "science": "土星外側的不規則衛星，沿逆行軌道運行，表面顏色較暗。",
+      "mythology": "名稱來自泰坦女神福柏，勒托與阿斯忒里亞之母。"
+    },
+    "related": [
+      {
+        "type": "mythology",
+        "label": "福柏女神",
+        "url": "titans.html#phoebe"
+      },
+      {
+        "type": "astronomy",
+        "label": "土星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA Science: Phoebe",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/saturn/moons/phoebe/"
+      }
+    ]
+  },
+  {
+    "id": "titan",
+    "name": "泰坦",
+    "englishName": "Titan",
+    "designation": "Saturn VI",
+    "aliases": [
+      "Saturn VI",
+      "土衛VI"
+    ],
+    "category": "satellite",
+    "image": {
+      "src": "image/astronomy/titan.svg",
+      "alt": "泰坦的示意插畫（非實際攝影）",
+      "credit": "本站製作的示意插畫，非 NASA 實拍影像",
+      "sourceUrl": null,
+      "licenseNote": "本站自製示意圖；非科學比例"
+    },
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 5149.5,
+      "orbitalPeriodDays": 15.945,
+      "discoveryYear": 1655,
+      "discoverer": "克里斯蒂安·惠更斯"
+    },
+    "description": {
+      "science": "土星最大衛星，具有濃厚大氣與由甲烷、乙烷形成的湖海。",
+      "mythology": "名稱取自希臘神話中的泰坦神族，而非某一位名為「泰坦」的神。"
+    },
+    "related": [
+      {
+        "type": "astronomy",
+        "label": "土星",
+        "url": "planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NASA Science: Titan",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/saturn/moons/titan/"
+      }
+    ]
+  }
+]
