@@ -334,7 +334,7 @@
     "id": "moon",
     "name": "月球",
     "englishName": "Moon",
-    "designation": "Moon",
+    "designation": "Earth I",
     "aliases": [
       "月球",
       "Moon"
@@ -376,7 +376,7 @@
     "id": "phobos",
     "name": "福波斯",
     "englishName": "Phobos",
-    "designation": "Phobos",
+    "designation": "Mars I",
     "aliases": [
       "福波斯",
       "Phobos"
@@ -418,7 +418,7 @@
     "id": "deimos",
     "name": "得摩斯",
     "englishName": "Deimos",
-    "designation": "Deimos",
+    "designation": "Mars II",
     "aliases": [
       "得摩斯",
       "Deimos"
@@ -460,7 +460,7 @@
     "id": "io",
     "name": "伊娥",
     "englishName": "Io",
-    "designation": "Io",
+    "designation": "Jupiter I",
     "aliases": [
       "伊娥",
       "Io"
@@ -502,7 +502,7 @@
     "id": "europa",
     "name": "歐羅巴",
     "englishName": "Europa",
-    "designation": "Europa",
+    "designation": "Jupiter II",
     "aliases": [
       "歐羅巴",
       "Europa"
@@ -544,7 +544,7 @@
     "id": "ganymede",
     "name": "蓋尼米德",
     "englishName": "Ganymede",
-    "designation": "Ganymede",
+    "designation": "Jupiter III",
     "aliases": [
       "蓋尼米德",
       "Ganymede"
@@ -586,7 +586,7 @@
     "id": "callisto",
     "name": "卡利斯托",
     "englishName": "Callisto",
-    "designation": "Callisto",
+    "designation": "Jupiter IV",
     "aliases": [
       "卡利斯托",
       "Callisto"
@@ -628,7 +628,7 @@
     "id": "enceladus",
     "name": "恩克拉多斯",
     "englishName": "Enceladus",
-    "designation": "Enceladus",
+    "designation": "Saturn II",
     "aliases": [
       "恩克拉多斯",
       "Enceladus"
@@ -670,7 +670,7 @@
     "id": "mimas",
     "name": "米瑪斯",
     "englishName": "Mimas",
-    "designation": "Mimas",
+    "designation": "Saturn I",
     "aliases": [
       "米瑪斯",
       "Mimas"
@@ -712,7 +712,7 @@
     "id": "dione",
     "name": "狄俄涅",
     "englishName": "Dione",
-    "designation": "Dione",
+    "designation": "Saturn IV",
     "aliases": [
       "狄俄涅",
       "Dione"
@@ -754,7 +754,7 @@
     "id": "miranda",
     "name": "米蘭達",
     "englishName": "Miranda",
-    "designation": "Miranda",
+    "designation": "Uranus V",
     "aliases": [
       "米蘭達",
       "Miranda"
@@ -796,7 +796,7 @@
     "id": "titania",
     "name": "泰坦妮亞",
     "englishName": "Titania",
-    "designation": "Titania",
+    "designation": "Uranus III",
     "aliases": [
       "泰坦妮亞",
       "Titania"
@@ -838,7 +838,7 @@
     "id": "triton",
     "name": "崔頓",
     "englishName": "Triton",
-    "designation": "Triton",
+    "designation": "Neptune I",
     "aliases": [
       "崔頓",
       "Triton"
@@ -880,7 +880,7 @@
     "id": "charon",
     "name": "卡戎",
     "englishName": "Charon",
-    "designation": "Charon",
+    "designation": "Pluto I",
     "aliases": [
       "卡戎",
       "Charon"
