@@ -1,0 +1,322 @@
+[
+  {
+    "id": "mercury",
+    "name": "水星",
+    "englishName": "Mercury",
+    "designation": "Mercury",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 4879,
+      "orbitalPeriodDays": 88
+    },
+    "description": {
+      "science": "太陽系最小的行星，表面遍布撞擊坑。",
+      "mythology": "名稱來自羅馬神使墨丘利，對應希臘赫耳墨斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA15162.jpg",
+      "alt": "水星的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA15162",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA15162"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  },
+  {
+    "id": "venus",
+    "name": "金星",
+    "englishName": "Venus",
+    "designation": "Venus",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 12104,
+      "orbitalPeriodDays": 225
+    },
+    "description": {
+      "science": "濃厚二氧化碳大氣造成強烈溫室效應。",
+      "mythology": "羅馬愛與美的女神維納斯，對應阿芙蘿黛蒂。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA00104.jpg",
+      "alt": "金星的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA00104",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA00104"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  },
+  {
+    "id": "earth",
+    "name": "地球",
+    "englishName": "Earth",
+    "designation": "Earth",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 12742,
+      "orbitalPeriodDays": 365.26
+    },
+    "description": {
+      "science": "目前已知唯一擁有生命的行星，表面有大量液態水。",
+      "mythology": "Earth 並非羅馬神名，可對照希臘大地女神蓋亞。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA18033.jpg",
+      "alt": "地球的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA18033",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA18033"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  },
+  {
+    "id": "mars",
+    "name": "火星",
+    "englishName": "Mars",
+    "designation": "Mars",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 6779,
+      "orbitalPeriodDays": 687
+    },
+    "description": {
+      "science": "紅色岩質行星，具有巨大火山、峽谷與極冠。",
+      "mythology": "羅馬戰神瑪爾斯，常對應希臘阿瑞斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA04591.jpg",
+      "alt": "火星的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA04591",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA04591"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  },
+  {
+    "id": "jupiter",
+    "name": "木星",
+    "englishName": "Jupiter",
+    "designation": "Jupiter",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 139820,
+      "orbitalPeriodDays": 4333
+    },
+    "description": {
+      "science": "太陽系最大行星，擁有大紅斑與眾多衛星。",
+      "mythology": "羅馬最高神朱庇特，對應希臘宙斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA02873.jpg",
+      "alt": "木星的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA02873",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA02873"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "土星",
+    "englishName": "Saturn",
+    "designation": "Saturn",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 116460,
+      "orbitalPeriodDays": 10759
+    },
+    "description": {
+      "science": "以明亮的冰質行星環聞名的氣態巨行星。",
+      "mythology": "羅馬農業神薩圖恩，常與泰坦克洛諾斯對照。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA17172.jpg",
+      "alt": "土星的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA17172",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA17172"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  },
+  {
+    "id": "uranus",
+    "name": "天王星",
+    "englishName": "Uranus",
+    "designation": "Uranus",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 50724,
+      "orbitalPeriodDays": 30687
+    },
+    "description": {
+      "science": "自轉軸傾角極大，呈現特殊的側躺自轉。",
+      "mythology": "名稱直接源於希臘天空神烏拉諾斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA18182.jpg",
+      "alt": "天王星的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA18182",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA18182"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  },
+  {
+    "id": "neptune",
+    "name": "海王星",
+    "englishName": "Neptune",
+    "designation": "Neptune",
+    "category": "planet",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 49244,
+      "orbitalPeriodDays": 60190
+    },
+    "description": {
+      "science": "遙遠的冰巨行星，具有高速大氣風暴。",
+      "mythology": "羅馬海神涅普頓，對應希臘波塞頓。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA01492.jpg",
+      "alt": "海王星的 NASA 天文觀測影像",
+      "credit": "NASA/JPL（請至原始影像頁確認處理方式）",
+      "imageId": "PIA01492",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA01492"
+    },
+    "related": [
+      {
+        "label": "天然衛星圖鑑",
+        "url": "satellites.html"
+      },
+      {
+        "label": "矮行星圖鑑",
+        "url": "dwarf-planets.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Planets",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      }
+    ]
+  }
+]

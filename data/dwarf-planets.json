@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ceres",
+    "name": "穀神星",
+    "englishName": "Ceres",
+    "designation": "Ceres",
+    "category": "dwarf",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 940,
+      "orbitalPeriodDays": 1682
+    },
+    "description": {
+      "science": "位於火星與木星之間的小行星帶，曾由曙光號探測。",
+      "mythology": "羅馬農業女神刻瑞斯，對應希臘得墨忒耳。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA19547.jpg",
+      "alt": "穀神星的官方觀測影像",
+      "credit": "NASA/JPL",
+      "imageId": "PIA19547",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA19547"
+    },
+    "related": [
+      {
+        "label": "八大行星",
+        "url": "planets.html"
+      },
+      {
+        "label": "天然衛星",
+        "url": "satellites.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Dwarf planets",
+        "url": "https://science.nasa.gov/dwarf-planets/"
+      }
+    ]
+  },
+  {
+    "id": "pluto",
+    "name": "冥王星",
+    "englishName": "Pluto",
+    "designation": "Pluto",
+    "category": "dwarf",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 2377,
+      "orbitalPeriodDays": 90560
+    },
+    "description": {
+      "science": "位於海王星外側，具有心形明亮地形與衛星卡戎。",
+      "mythology": "羅馬冥界神普路托，對應希臘哈得斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA19952.jpg",
+      "alt": "冥王星的官方觀測影像",
+      "credit": "NASA/JPL",
+      "imageId": "PIA19952",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA19952"
+    },
+    "related": [
+      {
+        "label": "八大行星",
+        "url": "planets.html"
+      },
+      {
+        "label": "天然衛星",
+        "url": "satellites.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Dwarf planets",
+        "url": "https://science.nasa.gov/dwarf-planets/"
+      }
+    ]
+  },
+  {
+    "id": "haumea",
+    "name": "妊神星",
+    "englishName": "Haumea",
+    "designation": "Haumea",
+    "category": "dwarf",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 1595,
+      "orbitalPeriodDays": 103000
+    },
+    "description": {
+      "science": "自轉迅速，形狀顯著拉長，擁有環系統。",
+      "mythology": "名稱來自夏威夷神話的生育女神，不屬希臘神話。"
+    },
+    "image": {
+      "src": null,
+      "alt": "妊神星的官方觀測影像",
+      "credit": "目前無可確認的清晰實拍影像；不以假想圖冒充照片",
+      "imageId": null,
+      "catalogUrl": null
+    },
+    "related": [
+      {
+        "label": "八大行星",
+        "url": "planets.html"
+      },
+      {
+        "label": "天然衛星",
+        "url": "satellites.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Dwarf planets",
+        "url": "https://science.nasa.gov/dwarf-planets/"
+      }
+    ]
+  },
+  {
+    "id": "makemake",
+    "name": "鳥神星",
+    "englishName": "Makemake",
+    "designation": "Makemake",
+    "category": "dwarf",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 1430,
+      "orbitalPeriodDays": 112000
+    },
+    "description": {
+      "science": "柯伊伯帶中的大型冰質天體。",
+      "mythology": "名稱來自拉帕努伊文化中的創造神，不屬希臘神話。"
+    },
+    "image": {
+      "src": null,
+      "alt": "鳥神星的官方觀測影像",
+      "credit": "目前無可確認的清晰實拍影像；不以假想圖冒充照片",
+      "imageId": null,
+      "catalogUrl": null
+    },
+    "related": [
+      {
+        "label": "八大行星",
+        "url": "planets.html"
+      },
+      {
+        "label": "天然衛星",
+        "url": "satellites.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Dwarf planets",
+        "url": "https://science.nasa.gov/dwarf-planets/"
+      }
+    ]
+  },
+  {
+    "id": "eris",
+    "name": "鬩神星",
+    "englishName": "Eris",
+    "designation": "Eris",
+    "category": "dwarf",
+    "physical": {
+      "parentBody": "sun",
+      "diameterKm": 2326,
+      "orbitalPeriodDays": 204000
+    },
+    "description": {
+      "science": "海王星外的大型矮行星，公轉軌道非常遙遠。",
+      "mythology": "名稱來自希臘不和女神厄里斯。"
+    },
+    "image": {
+      "src": null,
+      "alt": "鬩神星的官方觀測影像",
+      "credit": "目前無可確認的清晰實拍影像；不以假想圖冒充照片",
+      "imageId": null,
+      "catalogUrl": null
+    },
+    "related": [
+      {
+        "label": "八大行星",
+        "url": "planets.html"
+      },
+      {
+        "label": "天然衛星",
+        "url": "satellites.html"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA",
+        "title": "Dwarf planets",
+        "url": "https://science.nasa.gov/dwarf-planets/"
+      }
+    ]
+  }
+]

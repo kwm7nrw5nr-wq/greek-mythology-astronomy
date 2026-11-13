@@ -26,3 +26,12 @@
 @media(max-width:850px){.astro-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.astro-tools{grid-template-columns:1fr 1fr}.astro-tools label:first-child{grid-column:1/-1}.astro-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:550px){.astro-main{padding-top:25px}.astro-grid{grid-template-columns:1fr}.astro-tools{grid-template-columns:1fr}.astro-tools label:first-child{grid-column:auto}.astro-card img{height:220px}.astro-detail{padding:18px}.astro-facts{grid-template-columns:1fr 1fr}}
 @media(prefers-reduced-motion:reduce){.astro-card{transition:none}.astro-card:hover{transform:none}}
+/* 多類型天體圖鑑 */
+.astro-main .astro-catalog{width:100%;max-width:none;min-height:0;background:none}
+.astro-image-placeholder{height:190px;display:grid;place-items:center;text-align:center;padding:20px;background:radial-gradient(circle at 50% 30%,#253960,#0b1025);color:#cbd7f5;font-size:14px}
+.astro-card .astro-image-placeholder{width:100%}
+.astro-detail .astro-related{border:1px solid rgba(185,202,255,.22);border-radius:12px;padding:10px 14px;margin-top:18px}
+.astro-detail .astro-related summary{cursor:pointer;border:0;padding:4px 0}
+.astro-detail .astro-related .astro-links{padding:8px 0}
+.astro-image-credit{margin-top:16px;font-size:12px!important;color:#bbc9e7}
+@media(max-width:650px){.astro-main .astro-tools{grid-template-columns:1fr}.astro-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}

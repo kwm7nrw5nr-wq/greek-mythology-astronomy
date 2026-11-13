@@ -1291,3 +1291,9 @@ body.is-transitioning { overflow:hidden; }
  .reveal-on-scroll { opacity:1;transform:none; }
 }
 
+
+/* 可存取的相關通道摺疊區塊 */
+.term-gates>summary.term-gates-label{display:list-item;cursor:pointer;padding:12px 0;margin:0;color:#dbe3ff;font-size:14px;letter-spacing:.5px;list-style-position:inside}
+.term-gates>summary.term-gates-label:hover{color:#fff}
+.term-gates[open]>.term-gates-list{padding:8px 0 4px}
+.term-gates>summary:focus-visible{outline:2px solid #c1cbff;outline-offset:3px}

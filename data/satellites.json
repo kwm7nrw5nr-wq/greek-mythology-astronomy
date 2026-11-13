@@ -329,5 +329,593 @@
         "url": "https://photojournal.jpl.nasa.gov/catalog/PIA14602"
       }
     ]
+  },
+  {
+    "id": "moon",
+    "name": "月球",
+    "englishName": "Moon",
+    "designation": "Moon",
+    "aliases": [
+      "月球",
+      "Moon"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "earth",
+      "diameterKm": 3475,
+      "orbitalPeriodDays": 27.322,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "地球唯一的天然衛星，表面保留大量撞擊紀錄。",
+      "mythology": "英文 Moon 並非希臘神名，可連結塞勒涅與阿耳忒彌斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA00405.jpg",
+      "alt": "月球的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA00405",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA00405"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#earth"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA00405",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA00405"
+      }
+    ]
+  },
+  {
+    "id": "phobos",
+    "name": "福波斯",
+    "englishName": "Phobos",
+    "designation": "Phobos",
+    "aliases": [
+      "福波斯",
+      "Phobos"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "mars",
+      "diameterKm": 22.5,
+      "orbitalPeriodDays": 0.319,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "火星較大的不規則衛星，軌道非常接近火星。",
+      "mythology": "希臘神話中阿瑞斯之子，名字意為恐懼。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA10369.jpg",
+      "alt": "福波斯的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA10369",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA10369"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#mars"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA10369",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA10369"
+      }
+    ]
+  },
+  {
+    "id": "deimos",
+    "name": "得摩斯",
+    "englishName": "Deimos",
+    "designation": "Deimos",
+    "aliases": [
+      "得摩斯",
+      "Deimos"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "mars",
+      "diameterKm": 12.4,
+      "orbitalPeriodDays": 1.263,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "火星較小的天然衛星，外形不規則。",
+      "mythology": "希臘神話中與阿瑞斯相伴的恐懼化身。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA10368.jpg",
+      "alt": "得摩斯的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA10368",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA10368"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#mars"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA10368",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA10368"
+      }
+    ]
+  },
+  {
+    "id": "io",
+    "name": "伊娥",
+    "englishName": "Io",
+    "designation": "Io",
+    "aliases": [
+      "伊娥",
+      "Io"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "jupiter",
+      "diameterKm": 3643,
+      "orbitalPeriodDays": 1.769,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "太陽系火山活動最活躍的天體之一。",
+      "mythology": "希臘神話中與宙斯相關的伊娥。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA02308.jpg",
+      "alt": "伊娥的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA02308",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA02308"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#jupiter"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA02308",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA02308"
+      }
+    ]
+  },
+  {
+    "id": "europa",
+    "name": "歐羅巴",
+    "englishName": "Europa",
+    "designation": "Europa",
+    "aliases": [
+      "歐羅巴",
+      "Europa"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "jupiter",
+      "diameterKm": 3122,
+      "orbitalPeriodDays": 3.551,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "冰殼下可能有全球性液態海洋。",
+      "mythology": "希臘神話中的歐羅巴，與宙斯化身公牛的故事有關。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA19048.jpg",
+      "alt": "歐羅巴的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA19048",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA19048"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#jupiter"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA19048",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA19048"
+      }
+    ]
+  },
+  {
+    "id": "ganymede",
+    "name": "蓋尼米德",
+    "englishName": "Ganymede",
+    "designation": "Ganymede",
+    "aliases": [
+      "蓋尼米德",
+      "Ganymede"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "jupiter",
+      "diameterKm": 5268,
+      "orbitalPeriodDays": 7.155,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "太陽系最大衛星，擁有自身磁場。",
+      "mythology": "希臘神話中的特洛伊王子，被宙斯帶到奧林帕斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA00716.jpg",
+      "alt": "蓋尼米德的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA00716",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA00716"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#jupiter"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA00716",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA00716"
+      }
+    ]
+  },
+  {
+    "id": "callisto",
+    "name": "卡利斯托",
+    "englishName": "Callisto",
+    "designation": "Callisto",
+    "aliases": [
+      "卡利斯托",
+      "Callisto"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "jupiter",
+      "diameterKm": 4821,
+      "orbitalPeriodDays": 16.689,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "古老而密布撞擊坑的冰質衛星。",
+      "mythology": "希臘神話中的卡利斯托，與阿耳忒彌斯和宙斯故事相關。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA03456.jpg",
+      "alt": "卡利斯托的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA03456",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA03456"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#jupiter"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA03456",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA03456"
+      }
+    ]
+  },
+  {
+    "id": "enceladus",
+    "name": "恩克拉多斯",
+    "englishName": "Enceladus",
+    "designation": "Enceladus",
+    "aliases": [
+      "恩克拉多斯",
+      "Enceladus"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 504,
+      "orbitalPeriodDays": 1.37,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "冰殼裂隙噴出水冰羽流，地下可能有海洋。",
+      "mythology": "名稱源自希臘神話中的巨人恩克拉多斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA08386.jpg",
+      "alt": "恩克拉多斯的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA08386",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA08386"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#saturn"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA08386",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA08386"
+      }
+    ]
+  },
+  {
+    "id": "mimas",
+    "name": "米瑪斯",
+    "englishName": "Mimas",
+    "designation": "Mimas",
+    "aliases": [
+      "米瑪斯",
+      "Mimas"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 396,
+      "orbitalPeriodDays": 0.942,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "巨大赫歇爾撞擊坑是最醒目的地形。",
+      "mythology": "名稱源自希臘神話中的巨人米瑪斯。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA12570.jpg",
+      "alt": "米瑪斯的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA12570",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA12570"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#saturn"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA12570",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA12570"
+      }
+    ]
+  },
+  {
+    "id": "dione",
+    "name": "狄俄涅",
+    "englishName": "Dione",
+    "designation": "Dione",
+    "aliases": [
+      "狄俄涅",
+      "Dione"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "saturn",
+      "diameterKm": 1123,
+      "orbitalPeriodDays": 2.737,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "冰質衛星，表面有明亮斷層與撞擊坑。",
+      "mythology": "名稱來自希臘神話中的狄俄涅。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA07769.jpg",
+      "alt": "狄俄涅的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA07769",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA07769"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#saturn"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA07769",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA07769"
+      }
+    ]
+  },
+  {
+    "id": "miranda",
+    "name": "米蘭達",
+    "englishName": "Miranda",
+    "designation": "Miranda",
+    "aliases": [
+      "米蘭達",
+      "Miranda"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "uranus",
+      "diameterKm": 472,
+      "orbitalPeriodDays": 1.413,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "表面具有斷崖、溝槽與拼接般的地質地形。",
+      "mythology": "命名來自莎士比亞《暴風雨》中的米蘭達。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA18185.jpg",
+      "alt": "米蘭達的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA18185",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA18185"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#uranus"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA18185",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA18185"
+      }
+    ]
+  },
+  {
+    "id": "titania",
+    "name": "泰坦妮亞",
+    "englishName": "Titania",
+    "designation": "Titania",
+    "aliases": [
+      "泰坦妮亞",
+      "Titania"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "uranus",
+      "diameterKm": 1578,
+      "orbitalPeriodDays": 8.706,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "天王星最大衛星，具有峽谷與撞擊地形。",
+      "mythology": "命名來自莎士比亞《仲夏夜之夢》的仙后。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA01979.jpg",
+      "alt": "泰坦妮亞的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA01979",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA01979"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#uranus"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA01979",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA01979"
+      }
+    ]
+  },
+  {
+    "id": "triton",
+    "name": "崔頓",
+    "englishName": "Triton",
+    "designation": "Triton",
+    "aliases": [
+      "崔頓",
+      "Triton"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "neptune",
+      "diameterKm": 2707,
+      "orbitalPeriodDays": 5.877,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "以逆行軌道環繞海王星，表面曾觀測到噴流。",
+      "mythology": "名稱來自希臘神話中的海神特里同。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA00317.jpg",
+      "alt": "崔頓的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA00317",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA00317"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "planets.html#neptune"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA00317",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA00317"
+      }
+    ]
+  },
+  {
+    "id": "charon",
+    "name": "卡戎",
+    "englishName": "Charon",
+    "designation": "Charon",
+    "aliases": [
+      "卡戎",
+      "Charon"
+    ],
+    "category": "satellite",
+    "physical": {
+      "parentBody": "pluto",
+      "diameterKm": 1212,
+      "orbitalPeriodDays": 6.387,
+      "discoveryYear": null,
+      "discoverer": null
+    },
+    "description": {
+      "science": "冥王星最大的衛星，兩者形成特殊的雙天體系統。",
+      "mythology": "名稱來自希臘冥界渡船人卡戎。"
+    },
+    "image": {
+      "src": "https://photojournal.jpl.nasa.gov/jpeg/PIA19954.jpg",
+      "alt": "卡戎的 NASA 探測影像",
+      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
+      "imageId": "PIA19954",
+      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA19954"
+    },
+    "related": [
+      {
+        "label": "母天體圖鑑",
+        "url": "dwarf-planets.html#pluto"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "NASA/JPL",
+        "title": "Photojournal PIA19954",
+        "url": "https://photojournal.jpl.nasa.gov/catalog/PIA19954"
+      }
+    ]
   }
 ]

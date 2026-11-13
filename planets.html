@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="行星與神祇命名｜從神話到星空：探索希臘神話與現代天文命名的關係。">
 <title>行星與神祇命名｜從神話到星空</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/astronomy.css">
 </head>
 <body>
 <nav class="navbar">
@@ -18,7 +18,7 @@
     <a href="olympians.html">奧林匹斯眾神</a>
     <a href="mythology.html">神話故事</a>
     <a href="constellations.html">星座</a>
-    <a href="planets.html">行星</a><a href="satellites.html">天然衛星</a>
+    <a href="planets.html">行星</a><a href="dwarf-planets.html">矮行星</a><a href="satellites.html">天然衛星</a>
     <a href="science.html">命名與科學</a>
     <a href="research.html">研究方法</a>
     <a href="progress.html">專題總覽</a>
@@ -40,9 +40,9 @@
 <article class="planet-card"><span class="planet-index">07</span><div><h3>天王星 · Uranus</h3><p><strong>名稱來源：</strong>希臘天空神烏拉諾斯 Ouranos 的拉丁化名稱。</p><p>天王星的命名在太陽系行星中很有代表性，直接採用希臘神祇的名稱，而非典型的羅馬神名。</p></div></article>
 <article class="planet-card"><span class="planet-index">08</span><div><h3>海王星 · Neptune</h3><p><strong>羅馬神：</strong>Neptune；對應希臘的波塞頓 Poseidon。</p><p>兩者都與海洋及水域權能相關。海王星是以望遠鏡發現的行星之一，顯示古典命名傳統延續到現代天文學。</p></div></article>
 </div></section>
-<section class="content-section"><p class="section-label">BEYOND THE EIGHT PLANETS</p><h2>矮行星冥王星 · Pluto</h2><p>Pluto 來自羅馬冥界之神的名字，常與希臘的哈得斯 Hades 對照。冥王星曾被歸類為第九大行星，2006 年國際天文學聯合會採用行星定義後，改列為矮行星。分類改變不會抹去它的名稱與文化史。</p></section>
+<section class="content-section"><p class="section-label">BEYOND THE EIGHT PLANETS</p><h2>矮行星冥王星 · Pluto</h2><p>Pluto 來自羅馬冥界之神的名字，常與希臘的哈得斯 Hades 對照。冥王星曾被歸類為第九大行星，2006 年國際天文學聯合會採用行星定義後，改列為矮行星。分類改變不會抹去它的名稱與文化史。<a href="dwarf-planets.html#pluto">前往冥王星完整圖鑑 →</a></p></section>
 <section class="content-section"><h2>名稱與科學要分開理解</h2><p>行星的名稱提供歷史與文化線索；行星的質量、軌道、大氣與地質，則要靠觀測、測量與科學模型研究。名字可以來自神話，科學結論仍需由證據支持。</p><p class="source-note">延伸閱讀：<a href="https://science.nasa.gov/solar-system/planets/" target="_blank" rel="noopener noreferrer">NASA Solar System Exploration：Planets</a></p></section>
-</main>
+<section class="astro-main"><section class="astro-catalog"><h2>八大行星影像圖鑑</h2><p>選擇行星，查看觀測影像、科學特色與神話命名。原有的八大行星名稱對照完整保留於上方。</p><div class="astro-tools"><label>搜尋行星<input id="astro-search" type="search" placeholder="例如：木星、Jupiter"></label><label>排序<select id="astro-sort"><option value="default">預設順序</option><option value="name">英文名稱 A–Z</option><option value="diameter-desc">直徑大到小</option><option value="diameter-asc">直徑小到大</option></select></label></div><p id="astro-status" role="status"></p><div id="astro-grid" class="astro-grid"></div></section></section></main>
 <footer><p>《從神話到星空》｜希臘神話與現代天文學</p><p>自主學習研究・神話是文化的故事，天文學以觀測與證據理解宇宙。</p></footer>
-  <script src="js/main.js" defer></script>
+  <script src="js/main.js" defer></script><script src="js/astronomy.js" defer data-catalog="planets"></script>
 </body></html>
