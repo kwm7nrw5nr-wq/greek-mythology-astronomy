@@ -646,11 +646,11 @@
       "mythology": "名稱源自希臘神話中的巨人恩克拉多斯。"
     },
     "image": {
-      "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia08/pia08386/PIA08386.jpg",
-      "alt": "恩克拉多斯的 NASA 探測影像",
-      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
-      "imageId": "PIA08386",
-      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA08386"
+      "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia06/pia06254/PIA06254.jpg",
+      "alt": "卡西尼號拍攝的恩克拉多斯完整圓盤假色拼接影像",
+      "credit": "NASA/JPL/Space Science Institute",
+      "imageId": "PIA06254",
+      "catalogUrl": "https://science.nasa.gov/photojournal/zooming-in-on-enceladus-mosaic/"
     },
     "related": [
       {
@@ -898,11 +898,11 @@
       "mythology": "名稱來自希臘冥界渡船人卡戎。"
     },
     "image": {
-      "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia19/pia19954/PIA19954.jpg",
-      "alt": "卡戎的 NASA 探測影像",
-      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
-      "imageId": "PIA19954",
-      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA19954"
+      "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia19/pia19968/PIA19968.jpg",
+      "alt": "新視野號拍攝的卡戎完整圓盤增強色彩影像",
+      "credit": "NASA/Johns Hopkins APL/Southwest Research Institute",
+      "imageId": "PIA19968",
+      "catalogUrl": "https://science.nasa.gov/photojournal/charon-in-enhanced-color/"
     },
     "related": [
       {
