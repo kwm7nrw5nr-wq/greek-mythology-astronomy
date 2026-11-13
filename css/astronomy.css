@@ -1,0 +1,28 @@
+/* 天然衛星示範頁，全部以 astro- 前綴隔離全站樣式 */
+.astro-main{width:min(1200px,94%);margin:auto;padding:60px 0 110px}
+.astro-main section:first-child,.astro-main section:nth-child(2){display:block;min-height:0;max-width:none;width:100%;margin:0;padding:32px 0;background:none;text-align:left}
+.astro-main section:first-child p,.astro-main section:nth-child(2) p{width:auto;max-width:none;margin:0 0 14px;padding:0;font-size:16px;letter-spacing:normal;opacity:1;text-align:left;line-height:1.8}
+.astro-main section h2{font-size:clamp(25px,4vw,36px);margin:0 0 15px}
+.astro-intro{border-bottom:1px solid rgba(200,210,255,.16)}
+.astro-tools{display:grid;grid-template-columns:2fr 1fr 1fr;gap:15px;margin:24px 0}
+.astro-tools label{display:grid;gap:7px;font-size:14px;color:#dbe3ff}
+.astro-tools input,.astro-tools select{width:100%;min-width:0;padding:12px 14px;border-radius:12px;border:1px solid rgba(195,205,255,.28);background:#121a35;color:white;font:inherit}
+.astro-tools :is(input,select,button):focus-visible,.astro-card:focus-visible,.astro-detail a:focus-visible{outline:3px solid #a8bcff;outline-offset:3px}
+.astro-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}
+.astro-card{display:block;min-width:0;width:100%;padding:0;border:1px solid rgba(190,204,255,.24);border-radius:18px;overflow:hidden;background:#10162c;color:#fff;text-align:left;cursor:pointer;transition:border-color .2s,transform .2s}
+.astro-card:hover{transform:translateY(-3px);border-color:#a9bbff}
+.astro-card[aria-expanded="true"]{border-color:#b3c4ff;box-shadow:0 0 0 1px #b3c4ff}
+.astro-card img{display:block;width:100%;height:190px;object-fit:cover;background:#080e22}
+.astro-card-info{display:grid;gap:4px;padding:15px}
+.astro-card-name{font-weight:700;font-size:20px}.astro-card-sub{color:#bbc8e9;font-size:13px}.astro-card-summary{font-size:14px;color:#e1e5f5;line-height:1.6}
+.astro-detail{grid-column:1/-1;border:1px solid rgba(178,198,255,.32);border-radius:18px;padding:24px;background:linear-gradient(145deg,#121d3b,#0b1024);scroll-margin-top:100px}
+.astro-detail h3{font-size:26px;margin:0 0 15px}.astro-detail h4{font-size:17px;margin:20px 0 6px}
+.astro-detail p{font-size:15px!important}.astro-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+.astro-facts div{border:1px solid rgba(180,195,245,.2);border-radius:12px;padding:12px;background:rgba(255,255,255,.03)}
+.astro-facts dt{color:#b5c3e9;font-size:12px}.astro-facts dd{margin:4px 0 0;font-size:16px}
+.astro-links{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}.astro-links a{border:1px solid rgba(185,202,255,.3);border-radius:99px;padding:6px 12px;color:#d7e3ff;text-decoration:none}
+.astro-detail details{margin-top:18px;border-top:1px solid rgba(190,205,255,.2);padding-top:15px}.astro-detail summary{cursor:pointer;font-weight:600}.astro-detail ul{padding:10px 0 0 22px}.astro-detail li{margin:7px 0}.astro-detail a{color:#bdd0ff}
+.astro-empty{grid-column:1/-1;padding:35px;border:1px dashed #69789e;border-radius:16px;text-align:center}
+@media(max-width:850px){.astro-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.astro-tools{grid-template-columns:1fr 1fr}.astro-tools label:first-child{grid-column:1/-1}.astro-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:550px){.astro-main{padding-top:25px}.astro-grid{grid-template-columns:1fr}.astro-tools{grid-template-columns:1fr}.astro-tools label:first-child{grid-column:auto}.astro-card img{height:220px}.astro-detail{padding:18px}.astro-facts{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:reduce){.astro-card{transition:none}.astro-card:hover{transform:none}}
