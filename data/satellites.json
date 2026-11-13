@@ -730,11 +730,11 @@
       "mythology": "名稱來自希臘神話中的狄俄涅。"
     },
     "image": {
-      "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia07/pia07769/PIA07769.jpg",
-      "alt": "狄俄涅的 NASA 探測影像",
-      "credit": "NASA/JPL（影像處理與來源詳見原始頁）",
-      "imageId": "PIA07769",
-      "catalogUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA07769"
+      "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia07/pia07746/PIA07746.jpg",
+      "alt": "NASA 卡西尼號拍攝的狄俄涅完整圓盤影像",
+      "credit": "NASA/JPL/Space Science Institute",
+      "imageId": "PIA07746",
+      "catalogUrl": "https://science.nasa.gov/photojournal/dione-in-full-view/"
     },
     "related": [
       {
